@@ -1,0 +1,487 @@
+.marketplace__header {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #05070A;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23290326' stroke-width='6.2' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    align-items: center;
+}
+
+.marketplace__header__sectionOne button {
+    border: 1px solid #ff1ef0bb;
+    color: rgba(255, 255, 255, 0.918);
+    background-color: #f6dff521;
+}
+
+.marketplace__header__sectionTwo {
+    display: flex;
+    align-items: center;
+}
+
+
+.marketplace__header__sectionTwo i {
+    font-size: 80px;
+    color: #ff2cf1;
+    margin-right: 14px;
+}
+
+.marketplace__header__sectionTwo h3 {
+    color: #ff2cf1;
+    font-size: 30px;
+}
+
+
+.marketplace__header__sectionTwo__addressButton {
+    padding: .5rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0 75%);
+    cursor: pointer;
+    width: 150px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 1px solid #ff15ef;
+    background-color: #090b0e;
+    color: white;
+    padding-right: -10px;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    transition: .4s;
+    margin-left: 10px;
+}
+
+.marketplace__header__sectionTwo__addressButton:hover {
+    background-color: #191e25;
+}
+
+.marketplace__header__sectionThree .MuiIconButton-root {
+    color: #fc63f2;
+    background-color: #f6dff50a;
+    margin-left: 5px;
+}
+
+.marketplace__search__container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.marketplace__search input {
+    background-color: transparent;
+    border: none;
+    outline-width: 0px;
+    padding: .4rem;
+    font-family: 'Montserrat';
+    color: #ff15ef;
+    width: 500px;
+}
+
+.marketplace__search input::placeholder {
+    font-family: 'Montserrat';
+    color: #ff15ef81;
+    font-weight: 500;
+    
+}
+
+.marketplace__search {
+    padding: .5rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 5% 100%, 0 75%);
+    border: 1px solid #ff15efaf;
+    background-color: #090b0e;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+}
+
+.marketplace__search i {
+    color: #ff15efaf;
+}
+.marketplace__display {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 14px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.marketplace__display__one {
+    padding: 1rem;
+    border: 1px solid #ff2cf152;
+    padding-bottom: 2rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0 85%);
+    margin: 1rem;
+}
+
+
+
+.marketplace__display__one__header  {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.marketplace__display__one__body {
+    margin-top: 10px;
+}
+
+
+/* Styling the top sales component */
+
+.display__item__top__sales {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.display__item__top__sales__sectionOne {
+    width: 100px;
+    height: 100px;
+    background-color: #090b0e;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.display__item__top__sales__sectionTwo {
+    margin-right: 10px;
+}
+
+.display__item__top__sales__sectionTwo h3, .display__item__top__sales__sectionTwo p, .display__item__top__sales__sectionTwo h1 {
+    margin: 0;
+}
+
+.display__item__top__sales__sectionTwo h3 {
+    color: rgba(255, 255, 255, 0.801);
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.display__item__top__sales__sectionTwo p {
+    color: rgba(255, 255, 255, 0.671);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.display__item__top__sales__sectionTwo h2 {
+    font-family: 'Poppins';
+    color:  rgba(255, 255, 255, 0.9);
+}
+
+.display__item__top__sales__sectionThree p {
+    color: #4bb543;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+
+
+/* Handling the Top Collection Component */
+.marketplace__display__two {
+    padding: 1rem;
+    border: 1px solid #ff2cf152;
+    padding-bottom: 2rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0 85%);
+    margin: 1rem;
+}
+
+.display__item__top__collection {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 13px;
+}
+
+.display__item__top__collection__sectionOne {
+    width: 130px;
+    height: 130px;
+    background-color: #090b0e;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.display__item__top__collection__sectionTwo {
+    margin-right: 10px;
+}
+
+.display__item__top__collection__sectionTwo h3, .display__item__top__collection__sectionTwo p, .display__item__top__collection__sectionTwo h1 {
+    margin: 0;
+}
+
+.display__item__top__collection__sectionTwo h3 {
+    color: rgba(255, 255, 255, 0.801);
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.display__item__top__collection__sectionTwo p {
+    color: rgba(255, 255, 255, 0.671);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.display__item__top__collection__sectionTwo h2 {
+    font-family: 'Poppins';
+    color:  rgba(255, 255, 255, 0.9);
+}
+
+.display__item__top__collection__sectionThree p {
+    color: #4bb543;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+
+
+/* Working on the top gainers */
+.marketplace__display__three {
+    padding: 1rem;
+    border: 1px solid #ff2cf152;
+    padding-bottom: 2rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0 85%);
+    margin: 1rem;
+}
+
+.display__item__top__gainers {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.display__item__top__gainers__sectionOne {
+    width: 100px;
+    height: 100px;
+    background-color: #090b0e;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.display__item__top__gainers__sectionTwo {
+    margin-right: 10px;
+}
+
+.display__item__top__gainers__sectionTwo h3, .display__item__top__gainers__sectionTwo p, .display__item__top__gainers__sectionTwo h1 {
+    margin: 0;
+}
+
+.display__item__top__gainers__sectionTwo h3 {
+    color: rgba(255, 255, 255, 0.801);
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.display__item__top__gainers__sectionTwo p {
+    color: rgba(255, 255, 255, 0.671);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.display__item__top__gainers__sectionTwo h2 {
+    font-family: 'Poppins';
+    color:  rgba(255, 255, 255, 0.9);
+}
+
+.display__item__top__gainers__sectionThree p {
+    color: #4bb543;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+
+/* Working on the React tab for the fashion category */
+.marketplace__list__main {
+    padding: 1rem;
+}
+
+.marketplace__list__main__intro {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.863);
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+}
+
+.marketplace__list__main__tabs__wrapper {
+    padding: 1rem;
+}
+
+.marketplace__list__main__tabs__wrapper__tab__nav {
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.marketplace__list__main__tabs__wrapper__tab__nav__item {
+    padding: 15px;
+    text-align: center;
+    border: 0;
+    width: 50%;
+    background: rgba(128, 128, 128, 0);
+    cursor: pointer;
+    border-bottom: 1px solid #ff15ef1e;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 0.856);
+  }
+  .marketplace__list__main__tabs__wrapper__tab__nav__item:not(:last-child){
+    border-right: 1px solid#ff15ef1e;
+  }
+  
+  .marketplace__list__main__tabs__wrapper__tab__nav__item-active  {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .marketplace__list__main__tabs__wrapper__tab__nav__item-active::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 2px;
+    background: #ff15ef2c;
+  }
+
+  .marketplace__list__main__tabs__wrapper__content {
+      padding-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+  }
+
+  .tab__item {
+    border-radius: 5px;
+    border: 1px solid #ff15ef23;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+.tab__item:hover {
+    border: 1px solid #ff15ef3f;
+}
+  .tab__item__imgContainer {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: #191e25;
+  }
+
+  .tab__item__imgContainer img {
+      width: 90%;
+      margin: auto;
+  }
+
+  .tab__item__textArea {
+      padding: 1rem;
+  }
+
+  .tab__item__textArea h3 {
+      color: rgba(255, 255, 255, 0.897);
+      font-family: 'Montserrat';
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .tab__item__textArea h3 span img {
+      width: 16px;
+      border-radius: 50%;
+  }
+
+  .tab__item__textArea h3 span {
+      font-size: 14px;
+      background-color: rgba(255, 255, 255, 0.082);
+      padding: 4px;
+      border-radius: 4px;
+}
+
+.tab__item__textArea p span{
+    color: #fff;
+    font-family: 'Poppins';
+
+}
+
+.brands {
+    padding: 1rem;
+}
+
+.brands__heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brands__heading h1, p {
+    color: rgba(255, 255, 255, 0.918);
+    font-family: 'Poppins';
+}
+.brands__body {
+    justify-content: center;
+    padding: auto;
+}
+.brands__body img {
+    width: 200px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.brands__body img:hover {
+    transform: scale(1.1);
+    z-index: 100;
+}
+
+.marketplace__list__main__tabs__wrapper__tab__nav::-webkit-scrollbar {
+    display: none;
+}
+
+.marketplace__display::-webkit-scrollbar {
+    display: none;
+}
+
+/* Handling media */
+@media screen and (max-width: 800px) {
+    .marketplace__header__sectionTwo {
+        display: none;
+    }
+
+    .marketplace__header {
+        margin: 0rem;
+    }
+
+    .marketplace__search input {
+        width: 300px;
+    }
+
+    .marketplace__display {
+        justify-content: space-between;
+    }
+
+    .marketplace__list__main__intro {
+        font-size: 25px;
+    }
+
+    .marketplace__list__main__tabs__wrapper__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .brands__body img {
+        width: 100px;
+    }
+}

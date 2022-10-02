@@ -1,0 +1,114 @@
+.market__item {
+    padding: 1rem;
+}
+
+.market__item__banner {
+    display: flex;
+}
+
+.market__item__banner__sectionOne {
+    flex: 0.5;
+    padding: 1rem;
+}
+.market__item__banner__sectionOne {
+    flex: 0.5;
+    padding: 1rem;
+}
+
+.market__item__banner__sectionOne__imgWrapper {
+    min-height: 500px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ff15ef21;
+    border-radius: 5px;
+    background-color: #f8cff504;
+}
+
+.market__item__banner__sectionOne__imgWrapper img {
+    width:  80%;
+}
+
+.market__item__banner__sectionTwo__contentContainer {
+    padding: 1rem;
+}
+
+.market__item__banner__sectionTwo__contentContainer__header h1 {
+    color: #f0cfec;
+    font-family: 'Poppins';
+}
+
+.market__item__banner__sectionTwo__contentContainer__header p {
+    color: #f0cfecd3;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.market__item__banner__sectionTwo__contentContainer__header {
+    margin-bottom: 100px;
+}
+
+.market__item__banner__sectionTwo__contentContainer__priceContainer span {
+    color: #f0cfecd3;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.market__item__banner__sectionTwo__contentContainer__priceContainer h3 {
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.market__item__banner__sectionTwo__contentContainer__cta__buyNow {
+    padding: .6rem;
+    font-size: 16px;
+    margin-right: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 0;
+    border-radius: 3px;
+    background-color: #790571;
+    color: rgba(255, 255, 255, 0.918);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.market__item__banner__sectionTwo__contentContainer__cta__buyNow:hover {
+    background-color: #c508b9e3;
+}
+
+
+.market__item__banner__sectionTwo__contentContainer__cta__tryOn {
+    padding: .6rem;
+    font-size: 16px;
+    margin-right: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 1px solid #790571;
+    border-radius: 3px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.918);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.market__item__banner__sectionTwo__contentContainer__cta__tryOn:hover {
+    background-color: #c508b923;
+}
+
+.market__item__description {
+    padding: 1.2rem;
+}
+
+.market__item__description__headingContainer h3 {
+    color: #f0cfec;
+}
+
+.market__item__description__body {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.market__item__description__body p {
+    font-family: 'Montserrat';
+    color: #f0cfecd3;
+}
