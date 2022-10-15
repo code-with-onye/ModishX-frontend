@@ -1,12 +1,12 @@
 import Navbar from "../../components/sub/navbar";
-import { IconButton } from "@mui/material";
+import { IconButton, Button } from "@mui/material";
 import DisplayItemTopSales from "../../components/main/market/displayItemTopSales";
 import DisplayItemTopCollection from "../../components/main/market/displayItemTopCollection";
 import DisplayItemTopGainers from "../../components/main/market/displayItemTopGainers";
 import Layout from "../../components/sub/layout";
 import { useState } from "react";
 import TabItem from "../../components/main/market/tabItem";
-import Button from "../../components/Button/Button";
+import { clsx } from "clsx";
 
 function MarketIndex() {
   const [toggleState, setToggleState] = useState(1);
@@ -97,7 +97,6 @@ function MarketIndex() {
             <h3 className="marketplace__display__one__header">
               Top Collection
             </h3>
-            <Button>cool</Button>
 
             <div className="marketplace__display__one__body">
               <DisplayItemTopCollection
@@ -195,7 +194,13 @@ function MarketIndex() {
             <p>Shop from Modish-X amazing luxurious brands</p>
           </div>
 
-          <div className="brands__body">
+          <div
+            className={clsx([
+              "grid grid-cols-2 w-full ",
+              "md:grid-cols-4",
+              "lg:grid-cols-6",
+            ])}
+          >
             <img src="/images/brands/bb1.png" alt="" />
             <img src="/images/brands/bb2.png" alt="" />
             <img src="/images/brands/bb3.png" alt="" />

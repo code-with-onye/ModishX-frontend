@@ -1,15 +1,25 @@
 enum ButtonVariant
 {
     'primary',
-    'outline',
-    'ghost',
-    'light',
-    'dark',
+    'secondary',
+}
+
+// 'outline',
+//     'ghost',
+//     'light',
+
+enum ButtonSize
+{
+    "small",
+    "medium",
+    "large",
+    "x-large"
 }
 export interface ButtonProps
 {
     children?: React.ReactNode;
-    variant?: keyof typeof ButtonVariant;
+    variant: keyof typeof ButtonVariant;
+    size: keyof typeof ButtonSize;
     className?: string;
     user?: number;
 }
